@@ -1,5 +1,5 @@
 // $(document).ready(function () {
-//   const mainSwiper = new Swiper('.slider-main', {
+//   const mainlSwiper = new Swiper('.slider-main', {
 //   // Optional parameters
 //   loop: true,
 
