@@ -1,0 +1,43 @@
+.unrealised
+  background-color: $text-color
+  padding-top: 62px
+  padding-bottom: 80px
+  &-title
+    font-family: Roboto Condensed
+    font-style: normal
+    font-weight: bold
+    font-size: 36px
+    line-height: 48px
+    letter-spacing: 0.2px
+    color: #FFFFFF
+  &-books
+    display: flex
+    justify-content: space-between
+  &-buttons
+    display: flex
+    align-items: center
+    justify-content: space-between
+    column-gap: 24px
+    margin-bottom: 60px
+  &__button
+    width: 54px
+    height: 56px
+    border-radius: 2000px
+    border: solid 2px #5a7184
+    color: #5a7184
+    background-repeat: no-repeat
+    background-position: center
+    background-color: $text-color
+    &--next
+      background-image: url(../img/icon-next-unrealised.svg)
+      transform: rotate(-180deg)
+      border-color: #FFF
+    &--prev
+      background-image: url(../img/icon-unrealised.svg)
+      transform: rotate(-180deg)
+  &-books
+    &-images
+      display: flex
+      justify-content: space-between
+      &__elem
+        width: 204px
