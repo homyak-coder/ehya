@@ -9,6 +9,7 @@
       href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&family=Roboto+Condensed&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="shortcut icon" href="img/favicon-ehya.ico" type="image/x-icon" />
   </head>
@@ -310,61 +311,57 @@
     </section>
     <!-- /.magazine-books -->
     <section class="book-slider">
-      <div class="container">
-        <div class="slider-container">
-          <div class="slider-main-line"></div>
+      <div class="container book-slider__container">
+        <div class="swiper">
+          <div class="swiper-main-line"></div>
           <!-- /.slider-main-line -->
-          <div class="slider-main">
-            <div class="slider-main__elem">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
               <img
                 src="img/first-slider.svg"
                 alt="First slider picture"
-                class="slider-image"
+                class="swiper-image"
               />
-              <span class="slider-description">Бизнес & Финансы</span>
-              <span class="slider-about">Книги про мир бизнеса</span>
+              <span class="swiper-description">Бизнес & Финансы</span>
+              <span class="swiper-about">Книги про мир бизнеса</span>
             </div>
-            <!-- /.slider-main__elem -->
-            <div class="slider-main__elem">
+            <!-- /.swiper-silde -->
+            <div class="swiper-slide">
               <img
                 src="img/second-slider.svg"
                 alt="Second slider picture"
-                class="slider-image"
+                class="swiper-image"
               />
-              <span class="slider-description">Самомотиватия</span>
-              <span class="slider-about">Книги о мотивации</span>
+              <span class="swiper-description">Самомотиватия</span>
+              <span class="swiper-about">Книги о мотивации</span>
             </div>
-            <!-- /.slider-main__elem -->
-            <div class="slider-main__elem">
+            <!-- /.swiper-silde -->
+            <div class="swiper-slide">
               <img
                 src="img/third-slider.svg"
                 alt="Fourth slider picture"
-                class="slider-image"
+                class="swiper-image"
               />
-              <span class="slider-description">Романы Теленовеллы</span>
-              <span class="slider-about">Книги с крутыми историями</span>
+              <span class="swiper-description">Романы Теленовеллы</span>
+              <span class="swiper-about">Книги с крутыми историями</span>
             </div>
-            <!-- /.slider-main__elem -->
-            <div class="slider-main__elem">
+            <!-- /.swiper-silde-->
+            <div class="swiper-slide">
               <img
                 src="img/fourth-slider.svg"
                 alt="Fourth slider picture"
-                class="slider-image"
+                class="swiper-image"
               />
-              <span class="slider-description">Навыки будущего</span>
-              <span class="slider-about">Книги для самоподготовки </span>
+              <span class="swiper-description">Навыки будущего</span>
+              <span class="swiper-about">Книги для самоподготовки </span>
             </div>
-            <!-- /.slider-main__elem -->
-            <button
-              class="slider-main__button slider-main__button--prev"
-            ></button>
-            <button
-              class="slider-main__button slider-main__button--next"
-            ></button>
+            <!-- /.swiper-silde -->
           </div>
-          <!-- /.slider-main -->
+          <!-- /.swiper-wrapper -->
         </div>
-        <!-- /.slider-container -->
+        <!-- /.swiper -->
+        <button class="swiper-main__button swiper-main__button--prev"></button>
+        <button class="swiper-main__button swiper-main__button--next"></button>
       </div>
       <!-- /.container -->
     </section>
@@ -375,50 +372,59 @@
           <div class="unrealised-books">
             <span class="unrealised-title">Неизданные книги</span>
             <div class="unrealised-buttons">
-              <button
-                class="unrealised__button unrealised__button--next"
-              ></button>
-              <button
-                class="unrealised__button unrealised__button--prev"
-              ></button>
+              <button class="unrealised-slider__button unrealised-slider__button--next"></button>
+              <button class="unrealised-slider__button unrealised-slider__button--prev"></button>
             </div>
             <!-- ./unrealized-buttons -->
           </div>
           <!-- /.unrealised-books -->
-          <div class="unrealised-books-images">
-            <img
-              src="img/unrealised-first.jpg"
-              alt="First book"
-              class="unrealised-books-images__elem"
-            />
-            <img
-              src="img/unrealised-second.jpg"
-              alt="Second book"
-              class="unrealised-books-images__elem"
-            />
-            <img
-              src="img/unrealised-third.jpg"
-              alt="Third book"
-              class="unrealised-books-images__elem"
-            />
-            <img
-              src="img/unrealised-fourth.jpg"
-              alt="Fourth book"
-              class="unrealised-books-images__elem"
-            />
-            <img
-              src="img/unrealised-fifth.png"
-              alt="Fifth book"
-              class="unrealised-books-images__elem"
-            />
+          <div class="unrealised-slider">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img
+                  src="img/unrealised-first.jpg"
+                  alt="First book"
+                  class="unrealised-slider__elem"
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  src="img/unrealised-second.jpg"
+                  alt="Second book"
+                  class="unrealised-slider__elem"
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  src="img/unrealised-third.jpg"
+                  alt="Third book"
+                  class="unrealised-slider__elem"
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  src="img/unrealised-fourth.jpg"
+                  alt="Fourth book"
+                  class="unrealised-slider__elem"
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  src="img/unrealised-fifth.png"
+                  alt="Fifth book"
+                  class="unrealised-slider__elem"
+                />
+              </div>
+            </div>
+            <!-- /.swiper-wrapper -->
           </div>
-          <!-- /.unrealised-books-images -->
+          <!-- /.unrealised-slider -->
         </div>
         <!-- /.unrealised-container -->
       </div>
       <!-- /.container -->
     </section>
-    <!-- /.unrealised -->
+    <!-- /.unrealised -->    
     <section class="author-story">
       <div class="container">
         <div class="author-container">

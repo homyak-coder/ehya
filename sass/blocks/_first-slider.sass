@@ -1,11 +1,36 @@
 .book
   &-slider
     margin-bottom: 100px
-.slider
+    &__container
+      position: relative
+.swiper
+  position: relative
+  margin-bottom: 101px
+  padding-top: 60px 
+  border-top: 1px solid #ECEEF2 
+  height: 300px
   &-image
     width: 64px
     height: 64px
     margin-bottom: 40px
+  &-line
+    height: 1px
+    background-color: #ECEEF2
+    margin-bottom: 61px
+  &-wrapper
+    display: flex
+    justify-content: space-between
+    position: relative
+  &-slide
+    width: 265px
+    display: flex
+    flex-direction: column
+    border-radius: 8px
+    border: solid 1px #eceef2
+    text-align: center
+    padding-top: 40px
+    padding-bottom: 30px
+    align-items: center
   &-description
     font-family: Roboto
     font-weight: 500
@@ -22,25 +47,8 @@
     text-align: center
     color: #5A7184
   &-main
-    display: flex
-    justify-content: space-between
-    position: relative
-    &__elem
-      width: 265px
-      display: flex
-      flex-direction: column
-      border-radius: 8px
-      border: solid 1px #eceef2
-      text-align: center
-      padding-top: 40px
-      padding-bottom: 30px
-      align-items: center
-    &-line
-      height: 1px
-      background-color: #ECEEF2
-      margin-bottom: 61px
     &__button
-      top: 50%
+      top: 56%
       width: 56px
       height: 56px
       position: absolute
